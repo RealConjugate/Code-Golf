@@ -23,7 +23,3 @@ print(F([387,1]))
 print(F([3,-128]))
 print(F([-2,3]))
 print(F([3,2]))
-
-
-# whitespace removed:
-# def F(I): i=1 if I[0]<0: return ([],0) if I[1]<0: return ([I[0]],1) while I[i-1]-I[i]>0: I.append(I[i-1]-I[i]) i+=1 return I,i+1
